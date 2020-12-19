@@ -1,0 +1,60 @@
+
+.list-videos-review{
+  list-style: none; margin:0; padding:0;
+    li{ padding:10px 0; display: block; color:$gray-600; border-bottom:1px solid #eee;  }
+    i{ margin-right:10px; }
+
+    .meta{ float: right; min-width: 80px; margin-left:10px; }
+}
+
+
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #22D62B;
+  fill: none;
+  animation: stroke 1s linear forwards;
+}
+
+.checkmark {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 3;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 30px auto;
+  box-shadow: inset 0px 0px 0px #22D62B;
+  animation: fill .5s ease-in-out .5s forwards, scale .4s ease-in-out 1s both;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke .5s linear 1s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.3, 1.3, 1);
+  }
+}
+
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 60px #22D62B
+  }
+}

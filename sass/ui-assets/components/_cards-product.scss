@@ -1,0 +1,102 @@
+a[class*='card']{
+    color:initial;
+
+    &:hover{
+        .title{ color:$primary; }
+    }
+}
+
+.meta{
+    font-weight: 400;
+    p{ margin-bottom:5px; }
+    i{ margin-right:6px; }
+}
+
+
+
+.card-course, .card-course-list, .card-blog{ margin-bottom:25px; overflow: hidden;
+    a.title{color: initial; display: block; margin-bottom:5px; font-weight:600; 
+        line-height: 1.5;
+        &:hover{ color:$primary; }
+    }
+    
+    .meta{ color:$text-muted}
+    .img-wrap{ 
+        overflow:hidden; 
+        position:relative;
+        text-align: center;
+        img{ height:100%; width:100%; display:inline-block; object-fit:cover;}
+    }
+    .info-wrap{ overflow:hidden;  padding:18px 20px; border-top:1px solid $border-color;}
+    .text-wrap{ overflow:hidden;  padding:18px;}
+
+    .action{padding-top:5px; margin-top:5px}
+    
+    .bottom-wrap{padding:15px; border-top:1px solid $border-color;}
+    .price-wrap{ line-height: 1.1;}
+    .price{ font-weight: 600 }
+    .price-old{color:$text-muted; }
+
+    &:hover{box-shadow:0 4px 15px rgba(#999, .3); transition:.3s}
+
+    // product large view
+    .info-main{ padding:1.2rem }
+    .info-aside{ padding:1.2rem; border-left:1px solid $border-color; height: 100%  }
+    .badge{ margin-bottom: 5px; }
+
+    .fix-height{ height:75px; overflow:hidden; }
+
+}
+
+.course-large{
+    .info-main{ padding:1.7rem }
+}
+
+.card-course{
+    .img-wrap{ 
+        overflow:hidden; 
+        position:relative;
+        height:160px;
+        text-align: center;
+        img{ height:100%; width:100%;display:inline-block; object-fit:cover;}
+    }
+    p{margin-bottom: 0;}
+    .title{min-height: 48px; display: block;  font-weight:500; font-size:16px; }
+    a.title{color: initial; 
+        &:hover{ color:$primary; }
+    }
+}
+
+.card-blog{
+    .img-wrap{   height:220px; }
+    .info-wrap{ height: 210px; overflow: hidden; 
+    box-sizing: content-box; }
+}
+
+
+
+
+.owl-carousel .card{ margin-bottom:0; }
+
+.card-banner{display:flex; position:relative; overflow:hidden;  
+    background-color:#fff; background-size: cover;  border-radius:$border-radius;
+    .card-body{background-size: cover; position:relative; z-index:10}
+    
+    .caption{ background-color:rgba(#000, .65); z-index:10;  padding:1.25rem; color:#fff;    }
+    .caption.bottom{ bottom:0; left:0;  position:absolute;  width:100%; }
+    .caption.top{ top:0; left:0; position:absolute;  width:100%; }
+   
+    .caption.left{ top:0; left:0; bottom:0; position:absolute;}
+
+    .text-bottom{ position:absolute; left:0; bottom:0; left:0; z-index:10; width:100%; 
+        padding:7px 20px; padding-top:30px;  border-radius:0 0 $border-radius $border-radius;
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
+        color: #fff;
+    }
+
+    .img-bg{
+        position: absolute; right:0; bottom:0;
+        mix-blend-mode: multiply; max-width:100%;
+    }
+}

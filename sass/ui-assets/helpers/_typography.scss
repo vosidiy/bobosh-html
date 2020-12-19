@@ -1,0 +1,29 @@
+/* --------------------- titles ---------------------- */
+.section-heading{ margin-bottom:30px; margin-top:0;
+	p{ max-width:600px; margin:auto; }
+}
+.section-title{ font-weight:500; font-size: 2.3rem; font-family: 'Rubik', sans-serif;  }
+
+.title-text{margin-top:45px; margin-bottom:20px;}
+
+.word-limit{
+    height:40px;
+    line-height:20px;
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-5 {  font-family: 'Rubik', sans-serif; font-weight: 500; }
+
+p{line-height:1.5}
+.b{font-weight:600;}
+
+.white{color:#fff}
+.black, .dark{color:#000}
+
+p:last-child{ margin-bottom:0  }
+p.title{}
+
+.text-shadow{ text-shadow:0 0 5px rgba(#000, .9); }
+
+/* ==================  title helpers ================ */
+.rtl{direction:rtl;}
+.ltr{direction:ltr;}

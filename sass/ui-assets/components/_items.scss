@@ -1,0 +1,41 @@
+
+a.itemside{color: initial; }
+
+.itemside { position:relative;  display: inline-flex; width:100%; 
+	.info{padding-left:15px;   }
+	.img-wrap{position:relative; border-radius:$border-radius 0 0 $border-radius;}
+	.aside{   flex-shrink: 0; }
+	.title{ margin-bottom:7px; line-height: 1.2; display: block;}
+	a.title{ color:initial; }
+	a.title:hover{ color: $primary }
+	.price{ font-weight: 600 }
+	p{margin-bottom:0;}
+}
+
+.items-bordered-wrap{
+	.itemside:not(:last-child){
+		border-bottom:1px solid $border-color; padding-bottom:10px; margin-bottom:10px;
+	}
+}
+
+.itemlist {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+
+
+.item-teacher{ text-align:center; margin-bottom:30px;
+	.img-wrap{overflow:hidden;
+		img{ height:200px; width: 200px; border-radius:200px; object-fit: cover }
+	}
+	.text-wrap{padding-top:10px;}
+	.name{ color:$dark;  }
+	.job{margin-bottom:5px;  }
+
+	.links-social a{ font-size:18px; padding:3px; }
+
+	&:hover{
+		a{color:$primary;}
+	}
+}

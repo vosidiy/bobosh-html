@@ -1,0 +1,17 @@
+
+/* ================ SECTION-FOOTER ==================  */
+.section-footer{
+	
+	ul a{ color:rgba(#fff, .6);
+		&:hover{ color:$white; }
+	}
+
+
+	.title{ color:$white; }
+}
+
+.logo-footer{margin-bottom:15px;}
+
+.footer-copyright{  border-top:1px solid #666;
+	padding-top:20px; padding-bottom:20px;
+}

@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+  /* tablet devices */
+  .section-header .searchform-header {
+    width: 180px;
+  }
+}
+@media (max-width: 992px) {
+  /* small tablet devices */
+  .padding-y {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .padding-top {
+    padding-top: 30px;
+  }
+
+  .padding-bottom {
+    padding-bottom: 30px;
+  }
+
+  .padding-y-lg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .padding-top-lg {
+    padding-top: 50px;
+  }
+
+  .padding-bottom-lg {
+    padding-bottom: 50px;
+  }
+
+  .item-category {
+    margin-bottom: 0;
+    border: 0;
+    padding: 10px;
+    height: auto;
+    box-shadow: none;
+  }
+
+  .course-large .info-main {
+    padding: 1rem;
+  }
+
+  .owl-nav .owl-next {
+    right: -7px;
+    display: none;
+  }
+  .owl-nav .owl-prev {
+    left: -7px;
+    display: none;
+  }
+
+  .img-md {
+    width: 120px;
+    height: 120px;
+  }
+
+  .img-lg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-header .navbar-brand {
+    margin-right: 0;
+  }
+  .section-header .searchform-header {
+    width: 100%;
+  }
+
+  .section-intro .intro-wrap .title-intro {
+    font-size: 28px;
+  }
+  .section-intro .img-intro {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .card-preview-video {
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+
+  .section-footer .nav {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 30px;
+  }
+  .section-footer .nav-link {
+    padding: 10px;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .order-mobile-first {
+    order: -1;
+  }
+}
+@media all and (max-width: 768px) {
+  /* mobile devices */
+  .navbar-expand .navbar-collapse {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .meta-detail {
+    flex-direction: column;
+  }
+
+  .block-info .itemside {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .block-info .itemside .info {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .cols-two {
+    column-count: 1;
+  }
+
+  .section-header .brand-wrap {
+    margin-bottom: 1rem;
+  }
+  .section-header .search-wrap {
+    margin-bottom: 1rem;
+  }
+  .section-header .logo {
+    max-height: 42px;
+    width: auto;
+  }
+  .section-header .navbar-text {
+    display: none;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .section-pagetop .title-page {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+}

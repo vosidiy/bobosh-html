@@ -1,0 +1,29 @@
+
+
+/* ================== header main ==================  */
+.section-header{
+	background-color: #fff;
+	.nav-link{ font-weight: 500; position:relative; border-radius: $border-radius;
+		i{ font-size:18px; }
+		.notify{ top:-3px; right:-3px; }
+	}	
+	.nav-link:hover{ background-color:#f0f0f0;  transition: .2s}
+	.logo{margin-right:7px;  height:42px; display:inline-block; }
+}
+
+.searchform-header{  position:relative; width: 260px;
+	input[type='text']{ width: 100% }
+	.btn{ position:absolute; right:0; top:0px; background: transparent; color:$gray-500; }
+}
+
+
+
+.header-main{position:relative;}
+
+
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+	.dropdown-menu{  }
+	
+}		
+/* ============ desktop view .end// ============ */

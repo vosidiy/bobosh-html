@@ -1,0 +1,14 @@
+.block-dropzone-quiz{
+    vertical-align: top;
+    display: inline-block; border:2px dashed #ccc; padding: 15px; width: 400px; min-height: 130px; margin-right: 10px; margin-bottom: 15px;
+}
+
+.add-dropzone{
+    text-align: center;  display: inline-block; border:2px dashed #ccc; padding: 15px 30px; height: 130px; margin-bottom: 15px;
+    a{ margin-top: 35px; display: block;}
+}
+
+.quiz-answer-drag{
+    cursor: move; background-color: #fff;
+    padding: 7px 20px; border:2px solid #ddd;  display: inline-block; margin-right: 5px; margin-bottom: 10px;
+}
