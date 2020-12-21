@@ -1471,6 +1471,9 @@ html {
   text-align: center;
   margin-bottom: 20px;
 }
+.item-feature-home .icon-shape img {
+  max-height: 80px;
+}
 .item-feature-home .title {
   font-weight: 500;
   font-family: "Nunito", sans-serif;

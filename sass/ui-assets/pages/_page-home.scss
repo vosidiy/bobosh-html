@@ -29,6 +29,7 @@
 		display:inline-flex; align-items:center; justify-content:center; 
 		background-color:$primary; width:160px; height:160px; border-radius:100%; text-align:center; 
 		margin-bottom:20px;
+		img{  max-height: 80px; }
 	}
 	.title{ font-weight: 500; font-family: 'Nunito', sans-serif;}
 	p{ color:rgba($dark, .65)}
