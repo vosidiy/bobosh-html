@@ -607,106 +607,6 @@
 		"oAP": "/images/favicon.ico",
 		"oF": 0
 		},
-	"/images/icons/courses/art.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/art.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/book.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/book.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/business.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/business.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/fitness.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/fitness.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/flower.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/flower.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/it.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/it.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/marketing.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/marketing.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/photography.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/photography.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/repair.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/repair.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/courses/video.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/courses/video.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/images/icons/features/1.png": {
 		"ft": 32768,
 		"iS": 3269,
@@ -719,16 +619,6 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
-		},
-	"/images/icons/features/1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/features/1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
 		},
 	"/images/icons/features/2.png": {
 		"ft": 32768,
@@ -743,16 +633,6 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/icons/features/2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/features/2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/images/icons/features/3.png": {
 		"ft": 32768,
 		"iS": 2746,
@@ -765,46 +645,6 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
-		},
-	"/images/icons/features/3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/features/3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/features/4.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/features/4.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/features/5.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/features/5.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icons/features/6.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icons/features/6.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
 		},
 	"/images/icons/icon-play.svg": {
 		"ft": 2097152,
@@ -1281,32 +1121,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/posts/9.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/posts/about.jpg": {
-		"ft": 16384,
-		"iS": 59054,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/posts/about.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/posts/about@2x.jpg": {
-		"ft": 16384,
-		"iS": 145650,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/posts/about@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
