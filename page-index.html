@@ -62,7 +62,7 @@ $(document).ready(function() {
 	  
 	<div class="d-lg-none">
 		<a class="btn btn-light mr-3 relative" href="#"><i class="fa text-muted fa-bell"></i> <span class="notify">2</span> </a>
-		<a class="btn btn-primary" href="#"> <i class="fa fa-user-circle"></i> Sign in </a>
+		<a class="btn btn-primary" href="#modal_login" data-toggle="modal"> <i class="fa fa-user-circle"></i> Sign in </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -81,7 +81,7 @@ $(document).ready(function() {
 			</li>
 			<li class="nav-item mobile-hide ml-3">
 			<a class="btn btn-light" href="#">  Join now </a>
-			<a class="btn btn-primary" href="#"> <i class="fa fa-user-circle mr-2"></i> Sign in </a>
+			<a class="btn btn-primary ml-1" href="#modal_login" data-toggle="modal"> <i class="fa fa-user-circle mr-1"></i> Sign in </a>
 			</li>
 		</ul>
     </div> <!-- collapse .// -->
@@ -419,6 +419,47 @@ $(document).ready(function() {
 	</div><!-- //container -->
 </footer>
 
+
+
+
+
+
+<!-- Modal LOGIN -->
+<div class="modal fade" id="modal_login" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-sm">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h6 class="modal-title">Sign in</h6>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			
+			<form>
+				<div class="form-group">
+				   <input name="" class="form-control" placeholder="Email" type="text">
+				</div> <!-- form-group// -->
+				<div class="form-group">
+				  <input name="" class="form-control" placeholder="Password" type="password">
+				</div> <!-- form-group// -->
+				<div class="form-group">
+				   <label class="float-left custom-control custom-checkbox"> <input type="checkbox" class="custom-control-input" checked=""> <div class="custom-control-label"> Remember </div> </label>
+				</div> <!-- form-group form-check .// -->
+				
+				<div class="form-group">
+				  <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+				</div>
+				
+			</form>
+			<a href="#" class="d-block text-center">Forgot password?</a> 
+			<hr>
+			<p class="text-center">Don't have account? <a href="#">Sign up</a></p>
+			
+		</div>  <!-- modal-body  //end -->
+	  </div>
+	</div>
+</div> <!-- modal LOGIN //end -->
 
 
 </body>

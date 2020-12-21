@@ -72,6 +72,7 @@
     content: "";
     user-select: none;
     background-color: $custom-control-indicator-bg;
+    border: #969696 solid 1px;
     @include box-shadow($custom-control-indicator-box-shadow);
   }
 

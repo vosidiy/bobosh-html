@@ -90,7 +90,9 @@
 		flex-direction: column;
 	}
 
-
+	.section-header{
+		.navbar-nav .nav-link{ padding-left:7px; }
+	}
 
 	.block-info .itemside{
 		display: block; margin-bottom: 20px;
