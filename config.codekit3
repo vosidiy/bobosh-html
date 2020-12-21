@@ -612,6 +612,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/icons/features/1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icons/features/1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/icons/features/2.png": {
 		"ft": 32768,
 		"iS": 3855,
@@ -625,6 +635,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/icons/features/2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icons/features/2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/icons/features/3.png": {
 		"ft": 32768,
 		"iS": 2746,
@@ -637,6 +657,16 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/icons/features/3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icons/features/3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/icons/icon-play.svg": {
 		"ft": 2097152,
