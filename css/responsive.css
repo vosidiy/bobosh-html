@@ -6,6 +6,11 @@
 }
 @media (max-width: 992px) {
   /* small tablet devices */
+  .section-info-home .img-info-home {
+    max-width: 70%;
+    margin-bottom: 30px;
+  }
+
   .padding-y {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -30,14 +35,6 @@
 
   .padding-bottom-lg {
     padding-bottom: 50px;
-  }
-
-  .item-category {
-    margin-bottom: 0;
-    border: 0;
-    padding: 10px;
-    height: auto;
-    box-shadow: none;
   }
 
   .course-large .info-main {
@@ -71,11 +68,7 @@
   }
 
   .section-intro .intro-wrap .title-intro {
-    font-size: 28px;
-  }
-  .section-intro .img-intro {
-    max-width: 100%;
-    margin-top: 10px;
+    font-size: 36px;
   }
 
   .card-preview-video {
@@ -84,8 +77,9 @@
   }
 
   .section-footer .nav {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    margin-top: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   .section-footer .nav-link {
     padding: 10px;

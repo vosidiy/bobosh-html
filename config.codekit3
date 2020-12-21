@@ -1015,6 +1015,32 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/illustrations/home-aside1.png": {
+		"ft": 32768,
+		"iS": 557395,
+		"oA": 0,
+		"oAP": "/images/illustrations/home-aside1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/illustrations/home-aside2.png": {
+		"ft": 32768,
+		"iS": 554504,
+		"oA": 0,
+		"oAP": "/images/illustrations/home-aside2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/illustrations/intro.jpg": {
 		"ft": 16384,
 		"iS": 142740,

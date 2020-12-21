@@ -383,7 +383,7 @@ article:after,
 
 /* --------------------- titles ---------------------- */
 .section-heading {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-top: 0;
 }
 .section-heading p {
@@ -393,8 +393,9 @@ article:after,
 
 .section-title {
   font-weight: 500;
-  font-size: 2.3rem;
-  font-family: "Rubik", sans-serif;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
 }
 
 .title-text {
@@ -1064,7 +1065,7 @@ a[class*=card]:hover .title {
 }
 
 .owl-carousel .card {
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .card-banner {
@@ -1452,7 +1453,7 @@ html {
 }
 
 .section-intro {
-  background-color: #EEF9FF;
+  background-color: #F3ECFF;
   border-bottom-right-radius: 120px;
   overflow: hidden;
   min-height: 580px;
@@ -1464,6 +1465,10 @@ html {
 .section-intro .container {
   position: relative;
   z-index: 5;
+}
+
+.section-info-home {
+  overflow: hidden;
 }
 
 .intro-wrap {
