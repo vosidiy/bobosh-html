@@ -409,7 +409,7 @@ article:after,
 }
 
 .display-1, .display-2, .display-3, .display-4, .display-5 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
 }
 
@@ -521,31 +521,10 @@ p:last-child {
 
 /* ================== COMPONENTS =================== */
 /* ================ OWL SLIDER BANNER ================ */
-.slider-banner-owl .owl-nav .owl-prev, .slider-banner-owl .owl-nav .owl-next {
-  padding: 16px 7px;
-  color: #FFF;
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.3);
-  position: absolute;
-  z-index: 9;
-  position: absolute;
-}
-.slider-banner-owl .owl-nav .owl-prev {
-  left: 0;
-}
-.slider-banner-owl .owl-nav .owl-next {
-  right: 0;
-}
-.slider-banner-owl .item-slide img {
-  width: 100%;
-  object-fit: cover;
-}
-
 .owl-nav .owl-prev, .owl-nav .owl-next {
-  top: 50%;
-  background: #fff;
+  top: 49%;
+  background: #eadcff;
   display: inline-block;
-  box-shadow: 0 1px 4px rgba(142, 142, 142, 0.3);
   width: 44px;
   height: 44px;
   line-height: 44px;
@@ -730,11 +709,6 @@ a.itemside {
   margin-bottom: 10px;
 }
 
-.itemlist {
-  padding: 20px;
-  border-bottom: 1px solid #eee;
-}
-
 .item-teacher {
   text-align: center;
   margin-bottom: 30px;
@@ -743,8 +717,9 @@ a.itemside {
   overflow: hidden;
 }
 .item-teacher .img-wrap img {
-  height: 200px;
-  width: 200px;
+  height: 220px;
+  width: 220px;
+  border: 5px solid #8743EC;
   border-radius: 200px;
   object-fit: cover;
 }
@@ -758,7 +733,8 @@ a.itemside {
   margin-bottom: 5px;
 }
 .item-teacher .links-social a {
-  font-size: 18px;
+  font-size: 20px;
+  color: #ced4da;
   padding: 3px;
 }
 .item-teacher:hover a {
@@ -1030,7 +1006,7 @@ a[class*=card]:hover .title {
 .card-course .img-wrap {
   overflow: hidden;
   position: relative;
-  height: 160px;
+  height: 200px;
   text-align: center;
 }
 .card-course .img-wrap img {
@@ -1043,10 +1019,9 @@ a[class*=card]:hover .title {
   margin-bottom: 0;
 }
 .card-course .title {
-  min-height: 48px;
   display: block;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
 }
 .card-course a.title {
   color: initial;
@@ -1127,11 +1102,6 @@ a[class*=card]:hover .title {
   max-width: 100%;
 }
 
-.card .img-wrap {
-  overflow: hidden;
-  height: 100%;
-}
-
 .alert-success {
   background-color: #C8FFCE;
   border: 0;
@@ -1192,7 +1162,6 @@ a[class*=card]:hover .title {
 }
 .card-header .icon-control {
   float: right;
-  height: 28px;
 }
 
 .notify {
@@ -1242,7 +1211,6 @@ a[class*=card]:hover .title {
 
 .title-block {
   margin-bottom: 20px;
-  font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
 
@@ -1413,7 +1381,7 @@ html {
   padding: 45px 0;
 }
 .section-pagetop .title-page {
-  font-family: "Rubik", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 2.3rem;
 }
@@ -1435,7 +1403,7 @@ html {
   left: 0;
   top: 0;
   z-index: 0;
-  background: linear-gradient(270deg, rgba(0, 0, 255, 0.9) -50%, rgba(0, 255, 255, 0.7) 100%);
+  background: linear-gradient(270deg, rgba(135, 67, 236, 0.9) -50%, rgba(0, 122, 192, 0.7) 100%);
 }
 .section-bg .container {
   position: relative;
@@ -1483,73 +1451,63 @@ html {
   font-weight: 500;
 }
 
-.section-category-home {
-  padding-bottom: 60px;
-}
-
-.item-category {
-  padding: 1rem 1.2rem;
-  background: #fff;
-  width: 100%;
-  margin-bottom: 20px;
-  color: #212529;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  height: 76px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.37rem;
-}
-.item-category .text {
-  line-height: 1.4;
-  font-weight: 600;
-}
-.item-category .icon {
-  display: flex;
-  align-items: center;
-  background-color: #8743EC;
-  justify-content: center;
-  flex-shrink: 0;
-}
-.item-category:hover {
-  border-color: #c2c2c2;
-}
-.item-category:hover .icon {
-  background-color: #008FE4;
+.section-features {
+  padding-bottom: 220px;
 }
 
 .item-feature-home {
-  margin-bottom: 45px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .item-feature-home .icon-shape {
-  display: block;
-  background-color: #E3F5FF;
-  width: 90px;
-  height: 90px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8743EC;
+  width: 160px;
+  height: 160px;
   border-radius: 100%;
   text-align: center;
-  line-height: 90px;
+  margin-bottom: 20px;
 }
 .item-feature-home .title {
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+.item-feature-home p {
+  color: rgba(33, 37, 41, 0.65);
 }
 
-.author-comment {
-  min-height: 70px;
-  padding-left: 70px;
+.block-video-home {
   position: relative;
+  background: #fff;
+  border-radius: 0.45rem;
+  max-width: 600px;
+  min-height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -180px;
+  overflow: hidden;
 }
-.author-comment .icon-user {
+.block-video-home a {
+  display: block;
+}
+.block-video-home img {
+  width: 100%;
+}
+.block-video-home .icon-play {
+  z-index: 10;
+  transition: 0.2s;
+  background-image: url("../images/icons/icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
-  left: 0;
-  top: 0;
-  background: #ddd;
-  color: #999;
+  width: 90px;
+  height: 90px;
 }
-.author-comment .name {
-  margin-bottom: 3px;
-}
-.author-comment .job {
-  color: #999;
+.block-video-home:hover img {
+  opacity: 0.86;
 }
 
 /* ================ PAGES HEADER ================== */
@@ -1569,7 +1527,8 @@ html {
 
 /* ================== PAGE DETAILS ==================  */
 .title-page {
-  font-family: "Rubik", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-size: 38px;
   font-weight: 500;
 }
 
@@ -1793,40 +1752,6 @@ html {
 }
 .file-uploader:hover {
   color: #8743EC;
-}
-
-.block-dropzone-quiz {
-  vertical-align: top;
-  display: inline-block;
-  border: 2px dashed #ccc;
-  padding: 15px;
-  width: 400px;
-  min-height: 130px;
-  margin-right: 10px;
-  margin-bottom: 15px;
-}
-
-.add-dropzone {
-  text-align: center;
-  display: inline-block;
-  border: 2px dashed #ccc;
-  padding: 15px 30px;
-  height: 130px;
-  margin-bottom: 15px;
-}
-.add-dropzone a {
-  margin-top: 35px;
-  display: block;
-}
-
-.quiz-answer-drag {
-  cursor: move;
-  background-color: #fff;
-  padding: 7px 20px;
-  border: 2px solid #ddd;
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=ui.css.map */

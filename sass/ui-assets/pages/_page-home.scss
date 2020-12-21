@@ -20,38 +20,43 @@
 	.title-intro { margin-bottom: 20px; font-family: 'Nunito', sans-serif; font-size:60px; font-weight: 500;  }
 }
 
-.section-category-home{
-	padding-bottom: 60px;
+.section-features{
+	padding-bottom:220px;
 }
 
-.item-category{
-	padding: 1rem 1.2rem; background:#fff; width: 100%; margin-bottom:20px;  color:$dark; 
-	box-shadow: 0 1px 2px rgba(0,0,0,0.1); height:76px; border:1px solid $card-border-color;
-	border-radius: $border-radius;
-	.text{ line-height:1.4; font-weight: 600; }
-	.icon{
-		display: flex;
-	    align-items: center; background-color: $primary;
-	    justify-content: center; flex-shrink: 0;
+.item-feature-home{ text-align:center; margin-left:10%; margin-right:10%;
+	.icon-shape{
+		display:inline-flex; align-items:center; justify-content:center; 
+		background-color:$primary; width:160px; height:160px; border-radius:100%; text-align:center; 
+		margin-bottom:20px;
+	}
+	.title{ font-weight: 500; font-family: 'Nunito', sans-serif;}
+	p{ color:rgba($dark, .65)}
+}
+
+.block-video-home{
+	position:relative;
+	background:#fff;  border-radius:$border-radius-lg;
+	max-width:600px; min-height:350px; margin-left:auto; margin-right:auto; 
+	margin-top:-180px;
+	overflow:hidden;
+	a{ display:block}
+	img{ width:100%;}
+
+
+	.icon-play{
+		z-index:10;
+	    transition:.2s;
+	    background-image:url('../images/icons/icon-play.svg');
+	    background-repeat:no-repeat; 
+	    background-position:center;
+	    position:absolute; 
+	    width:90px; height:90px;
 	}
 
 	&:hover{
-		.icon{ background-color:$primary-light; }
-		border-color: rgb(194, 194, 194);
+		 img{ opacity:.86}
 	}
+
 }
 
-.item-feature-home{ margin-bottom:45px;
-	.icon-shape{
-		display:block;
-		background-color:#E3F5FF; width:90px;; height:90px; border-radius:100%; text-align:center; line-height:90px;
-	}
-	.title{ font-weight: 500; font-family: 'Rubik', sans-serif;}
-}
-
-.author-comment{ min-height: 70px;
-	padding-left:70px; position: relative;
-	.icon-user{ position: absolute; left:0; top:0; background: #ddd; color:#999}
-	.name{ margin-bottom: 3px;}
-	.job{ color:#999}
-}

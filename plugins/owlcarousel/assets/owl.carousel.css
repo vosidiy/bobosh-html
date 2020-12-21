@@ -61,7 +61,6 @@
     user-select: none; }
   .owl-carousel .owl-nav button,
   .owl-carousel button.owl-dot {
-    background: none;
     color: inherit;
     border: none;
     padding: 0;

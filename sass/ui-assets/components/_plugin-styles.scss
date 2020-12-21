@@ -1,29 +1,11 @@
 /* ================ OWL SLIDER BANNER ================ */
 
-.slider-banner-owl{
-	.owl-nav .owl-prev, .owl-nav .owl-next {
-	 	  padding:16px 7px;
-		  color: #FFF;
-		  display: inline-block;
-		  background-color: rgba(0, 0, 0, 0.3);
-		  position: absolute;
-		  z-index: 9;
-		  position: absolute; 
-	}
 
-	.owl-nav .owl-prev { left: 0; }
-	.owl-nav .owl-next {  right: 0; }
-
-	.item-slide img {
-		width: 100%;
-		object-fit: cover; 
- 	}
-}
 
 .owl-nav{
-	.owl-prev, .owl-next { top:50%;
-		background:#fff;
-		display:inline-block; box-shadow: 0 1px 4px rgba(142, 142, 142, 0.3);
+	.owl-prev, .owl-next { top:49%;
+		background:#eadcff;
+		display:inline-block; 
 		width: 44px; height: 44px;
 		line-height: 44px; border-radius: 50px;
 	    &:hover{ background-color: $primary; border-color:$primary; color:#fff; transition: .2s; }

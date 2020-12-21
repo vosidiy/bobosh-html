@@ -56,12 +56,12 @@ a[class*='card']{
     .img-wrap{ 
         overflow:hidden; 
         position:relative;
-        height:160px;
+        height:200px;
         text-align: center;
         img{ height:100%; width:100%;display:inline-block; object-fit:cover;}
     }
     p{margin-bottom: 0;}
-    .title{min-height: 48px; display: block;  font-weight:500; font-size:16px; }
+    .title{display: block;  font-weight:500; font-size:18px; }
     a.title{color: initial; 
         &:hover{ color:$primary; }
     }
