@@ -5,27 +5,32 @@ $(document).ready(function() {
 
 
 
-    /////////////////  items slider. /plugins/owlslider/
-    if ($('.slider-two-owl').length > 0) { // check if element exists
-        $('.slider-two-owl').owlCarousel({
-            loop:true,
-            margin:25,
-            nav:true,
-            dots:false,
-            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
-            responsive:{
-                0:{
-                    items:1
-                },
-                640:{
-                    items:1
-                },
-                1024:{
-                    items:2
-                }
-            }
-        })
-    } // end if
+    $('.js-check :radio').change(function () {
+        var check_attr_name = $(this).attr('name');
+        if ($(this).is(':checked')) {
+            $('input[name='+ check_attr_name +']').closest('.js-check').removeClass('active');
+            $(this).closest('.js-check').addClass('active');
+           // item.find('.radio').find('span').text('Add');
+
+        } else {
+            item.removeClass('active');
+            // item.find('.radio').find('span').text('Unselect');
+        }
+    });
+
+
+    $('.js-check :checkbox').change(function () {
+        var check_attr_name = $(this).attr('name');
+        if ($(this).is(':checked')) {
+            $(this).closest('.js-check').addClass('active');
+           // item.find('.radio').find('span').text('Add');
+        } else {
+            $(this).closest('.js-check').removeClass('active');
+            // item.find('.radio').find('span').text('Unselect');
+        }
+    });
+
+
 
 
      /////////////////  items slider. /plugins/owlslider/

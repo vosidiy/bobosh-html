@@ -1196,12 +1196,42 @@ a[class*=card]:hover .title {
 /* ====================== block ==================== */
 .box {
   padding: 1rem 1.2rem;
-  border-radius: 0.2rem;
+  border-radius: 0.37rem;
   border: 1px solid #e4e4e4;
 }
 .box img {
   max-width: 100%;
   height: auto;
+}
+
+.js-check.box {
+  width: 100%;
+  border-width: 2px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+}
+
+.js-check:not(.active):hover {
+  border-color: #ccc;
+}
+
+.js-check.active {
+  border-color: #3167eb;
+}
+
+.js-check {
+  position: relative;
+}
+
+.js-check input {
+  position: absolute;
+  top: 21px;
+  left: 18px;
+}
+
+.js-check .title {
+  margin-left: 22px;
+  margin-bottom: 0;
 }
 
 /* ====================== block ==================== */
