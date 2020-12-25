@@ -720,6 +720,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/icons/pay-cards.png": {
+		"ft": 32768,
+		"iS": 5450,
+		"oA": 0,
+		"oAP": "/images/icons/pay-cards.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/icons/pay-mastercard.png": {
 		"ft": 32768,
 		"iS": 3501,
@@ -1175,6 +1188,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/script-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/script-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/script.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1202,6 +1226,14 @@
 		"oAP": "/page-blank.html",
 		"oF": 0
 		},
+	"/page-detail-course-enrolled.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-detail-course-enrolled.html",
+		"oF": 0
+		},
 	"/page-detail-course.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1224,6 +1256,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/page-index.html",
+		"oF": 0
+		},
+	"/page-join-payment.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-join-payment.html",
 		"oF": 0
 		},
 	"/page-join.html": {

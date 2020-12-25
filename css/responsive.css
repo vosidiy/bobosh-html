@@ -1,2 +1,149 @@
-@media (max-width: 1200px){.section-header .searchform-header{width:180px}}@media (max-width: 992px){.section-info-home .img-info-home{max-width:70%;margin-bottom:30px}.padding-y{padding-top:30px;padding-bottom:30px}.padding-top{padding-top:30px}.padding-bottom{padding-bottom:30px}.padding-y-lg{padding-top:50px;padding-bottom:50px}.padding-top-lg{padding-top:50px}.padding-bottom-lg{padding-bottom:50px}.course-large .info-main{padding:1rem}.owl-nav .owl-next{right:-7px;display:none}.owl-nav .owl-prev{left:-7px;display:none}.img-md{width:120px;height:120px}.img-lg{width:200px;height:200px}.section-header .navbar-brand{margin-right:0}.section-header .searchform-header{width:100%}.section-intro .intro-wrap .title-intro{font-size:46px}.card-preview-video{margin-bottom:30px;margin-top:0px}.section-footer .nav{border-bottom:1px solid rgba(255,255,255,0.2);padding-bottom:30px;margin-bottom:30px}.section-footer .nav-link{padding:10px}.mobile-hide{display:none}.order-mobile-first{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}}@media all and (max-width: 768px){.navbar-expand .navbar-collapse{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.meta-detail{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.section-header .navbar-nav .nav-link{padding-left:7px}.block-info .itemside{display:block;margin-bottom:20px}.block-info .itemside .info{padding-left:0;margin-top:10px}.cols-two{-webkit-column-count:1;column-count:1}.section-header .brand-wrap{margin-bottom:1rem}.section-header .search-wrap{margin-bottom:1rem}.section-header .logo{max-height:42px;width:auto}.section-header .navbar-text{display:none}.display-4{font-size:2.5rem}.section-pagetop .title-page{font-size:1.8rem}.section-title{font-size:1.8rem}}
-/*# sourceMappingURL=responsive.css.map */
+@media (max-width: 1200px) {
+  /* tablet devices */
+  .section-header .searchform-header {
+    width: 180px;
+  }
+}
+@media (max-width: 992px) {
+  /* small tablet devices */
+  .section-info-home .img-info-home {
+    max-width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .padding-y {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .padding-top {
+    padding-top: 30px;
+  }
+
+  .padding-bottom {
+    padding-bottom: 30px;
+  }
+
+  .padding-y-lg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .padding-top-lg {
+    padding-top: 50px;
+  }
+
+  .padding-bottom-lg {
+    padding-bottom: 50px;
+  }
+
+  .course-large .info-main {
+    padding: 1rem;
+  }
+
+  .owl-nav .owl-next {
+    right: -7px;
+    display: none;
+  }
+  .owl-nav .owl-prev {
+    left: -7px;
+    display: none;
+  }
+
+  .img-md {
+    width: 120px;
+    height: 120px;
+  }
+
+  .img-lg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-header .navbar-brand {
+    margin-right: 0;
+  }
+  .section-header .searchform-header {
+    width: 100%;
+  }
+
+  .section-intro .intro-wrap .title-intro {
+    font-size: 46px;
+  }
+
+  .card-preview-video {
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+
+  .section-footer .nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .section-footer .nav-link {
+    padding: 10px;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .order-mobile-first {
+    order: -1;
+  }
+}
+@media all and (max-width: 768px) {
+  /* mobile devices */
+  .navbar-expand .navbar-collapse {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .meta-detail {
+    flex-direction: column;
+  }
+
+  .section-header .navbar-nav .nav-link {
+    padding-left: 7px;
+  }
+
+  .block-info .itemside {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .block-info .itemside .info {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .cols-two {
+    column-count: 1;
+  }
+
+  .section-header .brand-wrap {
+    margin-bottom: 1rem;
+  }
+  .section-header .search-wrap {
+    margin-bottom: 1rem;
+  }
+  .section-header .logo {
+    max-height: 42px;
+    width: auto;
+  }
+  .section-header .navbar-text {
+    display: none;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .section-pagetop .title-page {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
