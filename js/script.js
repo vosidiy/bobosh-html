@@ -1,3 +1,13 @@
+function toggleDisable(elem_tag) {
+    console.log(elem_tag);
+     if ($(elem_tag).attr("disabled")){
+        $(elem_tag).removeAttr("disabled");
+     } else {
+        $(elem_tag).attr("disabled", "disabled");
+     }
+};
+
+
 
 // jquery ready start
 $(document).ready(function() {
@@ -29,9 +39,6 @@ $(document).ready(function() {
             // item.find('.radio').find('span').text('Unselect');
         }
     });
-
-
-
 
      /////////////////  items slider. /plugins/owlslider/
     if ($('.slider-three-owl').length > 0){ // check if element exists

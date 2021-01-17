@@ -74,8 +74,16 @@
 				</div> <!-- drowpdown-menu.// -->
 			</li>
 			<li class="nav-item mobile-hide ml-3">
-			<a class="btn btn-light" href="#">  Join now </a>
-			<a class="btn btn-primary ml-1" href="#"> <i class="fa fa-user-circle mr-1"></i> Sign in </a>
+				<a class="btn btn-light" href="#"> My courses </a>
+				<div class="dropdown">
+					<a class="btn btn-primary dropdown-toggle ml-1" data-toggle="dropdown" href="#"> <i class="fa fa-user-circle mr-1"></i> Bekzod </a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a href="#" class="dropdown-item">Profile</a>
+						<a href="#" class="dropdown-item">My favorites</a>
+						<a href="#" class="dropdown-item">Courses</a>
+						<a href="#" class="dropdown-item text-danger">Log out</a>
+					</div>
+				</div>
 			</li>
 		</ul>
     </div> <!-- collapse .// -->
@@ -85,69 +93,51 @@
 
 <!-- ========================= SECTION CONTENT ========================= -->
 <section class="padding-y bg-light">
-<div class="container" style="min-height: 60vh;">
+<div class="container" style="min-height: 70vh; max-width:480px;">
+
+<br>
+ <h4 class="card-title mb-3">Add your kid(s)</h4> 
 
 
-<!-- ============================ COMPONENT REGISTER   ================================= -->
-<div class="card mx-auto shadow-sm border-0" style="max-width:480px; margin-top:40px;">
-    <article class="card-body">
-      <h4 class="card-title mb-3">Parent registration</h4> 
-      <form action="page-register-kids.html">
-              <div class="form-row">
-                  <div class="col form-group">
-                      <label>First name</label>
-                        <input type="text" class="form-control" placeholder="">
-                  </div> <!-- form-group end.// -->
-                  <div class="col form-group">
-                      <label>Last name</label>
-                        <input type="text" class="form-control" placeholder="">
-                  </div> <!-- form-group end.// -->
-              </div> <!-- form-row end.// -->
-              
-              <div class="form-group">
-                  <label>Email</label>
-                  <input type="email" class="form-control" placeholder="example@website.com">
-              </div> <!-- form-group end.// -->
-              
-              <div class="form-group">
-                  <label class="custom-control custom-radio custom-control-inline">
-                    <input class="custom-control-input" checked="" type="radio" name="gender" value="option1">
-                    <span class="custom-control-label"> Male </span>
-                  </label>
-                  <label class="custom-control custom-radio custom-control-inline">
-                    <input class="custom-control-input" type="radio" name="gender" value="option2">
-                    <span class="custom-control-label"> Female </span>
-                  </label>
-              </div> <!-- form-group end.// -->
-              
-              <div class="form-group form-row">
-                  <div class="form-group col-md-6">
-                      <label>Create password</label>
-                      <input class="form-control" type="password">
-                  </div> <!-- form-group end.// --> 
-                  <div class="form-group col-md-6">
-                      <label>Repeat password</label>
-                      <input class="form-control" type="password">
-                  </div> <!-- form-group end.// -->  
-              </div>
-              <div class="form-group">
-                  <button type="submit" class="btn btn-primary btn-block"> Register  </button>
-              </div> <!-- form-group// -->      
-              <div class="form-group"> 
-                  <label class="custom-control custom-checkbox"> <input type="checkbox" class="custom-control-input" checked=""> <div class="custom-control-label"> I am agree with <a href="#">terms and contitions</a>  </div> </label>
-              </div> <!-- form-group end.// -->           
-          </form>
+<form>
+<!-- ============================ KIDS   ================================= -->
+<div class="card mx-auto mb-3 shadow-sm border-0">
+<div class="card-body form-row">
+          <div class="col-8 form-group">
+              <label>Kid 1</label>
+                <input type="text" placeholder="Kid's name" class="form-control" placeholder="">
+          </div> <!-- form-group end.// -->
+          <div class="col-4 form-group">
+              <label> Age </label>
+              <input type="number" class="form-control">
+          </div> <!-- form-group end.// -->
+  </div><!-- card-body.// -->
+</div> <!-- card .// -->
 
-          <hr>
+<div class="card mx-auto mb-3 shadow-sm border-0">
+<div class="card-body form-row">
+          <div class="col-8 form-group">
+              <label>Kid 2</label>
+                <input type="text" placeholder="Kid's name" class="form-control" placeholder="">
+          </div> <!-- form-group end.// -->
+          <div class="col-4 form-group">
+              <label> Age </label>
+              <input type="number" class="form-control">
+          </div> <!-- form-group end.// -->
+  </div><!-- card-body.// -->
+</div> <!-- card .// -->
 
-          <p class="text-center">Don't have account? <a href="#">Sign up</a></p>
+<a href="#" class="btn btn-light btn-block"> <i class="fa fa-plus"></i> Add another kid </a>  
 
-      </article><!-- card-body.// -->
-  </div> <!-- card .// -->
+<hr>
 
-  <br><br>
-<!-- ============================ COMPONENT REGISTER  END.// ================================= -->
+<button type="submit" class="btn mb-3 btn-primary btn-block"> Save and continue  </button>
 
+<a href="page-detail-course.html" class="btn btn-link btn-block">Skip for later</a>
+
+<br><br>
+<!-- ============================ KIDS  END.// ================================= -->
+</form>
 
 
 <br><br><br>

@@ -123,7 +123,7 @@ $yiq-text-light:            $white !default;
 
 $enable-caret:              true !default;
 $enable-rounded:            true !default;
-$enable-shadows:            false !default;
+$enable-shadows:            true !default;
 $enable-gradients:          false !default;
 $enable-transitions:        true !default;
 $enable-hover-media-query:  false !default; // Deprecated, no longer affects any compiled CSS
@@ -441,7 +441,7 @@ $btn-transition:              color .15s ease-in-out, background-color .15s ease
 
 // Forms
 
-$label-margin-bottom:                   .3rem !default;
+$label-margin-bottom:                   .2rem !default;
 
 $input-padding-y:                       $input-btn-padding-y !default;
 $input-padding-x:                       $input-btn-padding-x !default;
@@ -503,7 +503,7 @@ $form-check-inline-margin-x:            .75rem !default;
 $form-check-inline-input-margin-x:      .3125rem !default;
 
 $form-grid-gutter-width:                10px !default;
-$form-group-margin-bottom:              1rem !default;
+$form-group-margin-bottom:              1.5rem !default;
 
 $input-group-addon-color:               $input-color !default;
 $input-group-addon-bg:                  $gray-200 !default;

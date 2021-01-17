@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="theme-color" content="#8743EC">
+
+<title>Bobosh live learning classes</title>
+
+<meta name="description" content="Online education for kids, live online lessons">
+<meta name="keywords" content="Education, online lessons, kids, teaching for kids">
+
+<link href="images/favicon.ico?v=2" rel="icon" type="image/x-icon">
+
+<!-- jQuery -->
+<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+<!-- Bootstrap4 files-->
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+<!-- Font awesome 5 -->
+<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+
+<!-- custom style -->
+<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+
+<!-- custom javascript -->
+<script src="js/script.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+
+<header class="section-header">
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="images/logo.svg" class="logo"></a>
+	<strong class="h5 border-left navbar-text pl-3"> Creating a course </strong>
+ 	
+    <div class="ml-auto">
+    	<a class="btn btn-outline-danger" href="#"> <i class="fa fa-times"></i> Discard </a>
+    </div>
+  </div> <!-- container .// -->
+</nav>
+</header> <!-- section-header.// -->
+
+
+
+	<!-- ========================= SECTION CONTENT ========================= -->
+	<section class="section-content bg padding-y">
+		<div class="container">
+
+			<div class="row">
+				<main class="col-md-10 offset-md-1">
+
+					<article class="card mb-3 shadow-sm">
+						<div class="card-body">
+							<form>
+								<div class="row">
+									<main class="col-md-8">
+										<div class="form-group">
+											<label>Title of course</label>
+											<input type="text" placeholder="Ex: Math for kids " class="form-control"
+												name="">
+										</div> <!-- form-group.// -->
+
+										<div class="form-row">
+											<div class="form-group col-md-6">
+												<select class="custom-select">
+													<option>Select category</option>
+													<option>History</option>
+													<option>Language</option>
+												</select>
+											</div> <!-- form-group.// -->
+											
+											<div class="form-group col-md-6">
+												<select class="custom-select">
+													<option>Select difficulty</option>
+													<option>Beginner</option>
+													<option>Intermediate</option>
+													<option>Advanced</option>
+												</select>
+											</div> <!-- form-group.// -->
+										</div> <!--  row.// -->
+
+										<div class="form-group">
+											<textarea placeholder="Short description" class="form-control" rows="4"></textarea>
+										</div> <!-- form-group.// -->
+										
+									</main>
+									<aside class="col-md-4">
+										<label for="" class="btn-file mb-3">
+											<p>Cover image (400x300px) <br> <small class="text-muted">jpg, gif, png</small></p>
+											
+											<input type="file" accept="jpg, png, jpeg, gif">
+										</label>
+										<label for="" class="btn-file">
+											<p>Video intro <br> <small class="text-muted">mp4, avi, mov</small></p>
+											<input type="file" accept="jpg, png, jpeg, gif">
+										</label>
+									</aside>
+								</div>
+								<!-- row.// -->
+								<hr>
+
+								<div class="table-responsive">
+								<table class="table table-bordered bg">
+									<tr>
+										<td colspan="7">
+											<div class="form-row">
+												<div class="col-md-3">
+													<label>Start date:</label> 
+													<input type="date" class="form-control" name="">
+												</div>
+												<div  class="col-md-3">
+													<label>How many lessons:</label> 
+													<input type="number" value="3" class="form-control" name="">
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr class="text-muted">
+										<td> 
+											<label class="custom-control custom-checkbox"> 
+												<input onchange="toggleDisable('#time_monday')" type="checkbox" class="custom-control-input"> 
+												<span class="custom-control-label"> Mon </span> 
+											</label> 
+										</td>
+										<td>
+											<label class="custom-control custom-checkbox"> 
+												<input onchange="toggleDisable('#time_tuesday')" type="checkbox" class="custom-control-input"> 
+												<span class="custom-control-label"> Tue </span> 
+											</label> 
+										</td>
+										<td>
+											<label class="custom-control custom-checkbox"> 
+												<input onchange="toggleDisable('#time_wednesday')" type="checkbox" class="custom-control-input"> 
+												<span class="custom-control-label"> Wed </span> 
+											</label> 
+										</td>
+										<td>
+											<label class="custom-control custom-checkbox"> 
+												<input onchange="toggleDisable('#time_thursday')" type="checkbox" class="custom-control-input"> 
+												<span class="custom-control-label"> Thu </span> 
+											</label> 
+										</td>
+										<td>
+											<label class="custom-control custom-checkbox"> 
+												<input onchange="toggleDisable('#time_friday')" type="checkbox" class="custom-control-input"> 
+												<span class="custom-control-label"> Fri </span> 
+											</label> 
+										</td>
+										<td>
+											<label class="custom-control custom-checkbox"> 
+												<input onchange="toggleDisable('#time_saturday')" type="checkbox" class="custom-control-input"> 
+												<span class="custom-control-label"> Sat </span> 
+											</label> 
+										</td>
+										<td>
+											<label class="custom-control custom-checkbox"> 
+												<input onchange="toggleDisable('#time_sunday')" type="checkbox" class="custom-control-input"> 
+												<span class="custom-control-label"> Sun </span> 
+											</label> 
+										</td>
+									</tr>
+									<tr>
+										<td> 
+											<input id="time_monday" disabled type="time" value="10:00" min="07:00" max="22:00" required class="form-control">
+										</td>
+										<td>
+											<input id="time_tuesday" disabled type="time" value="10:00" min="07:00" max="22:00" required class="form-control">
+										</td>
+										<td>
+											<input id="time_wednesday" disabled type="time" value="10:00" min="07:00" max="22:00" required class="form-control">
+										</td>
+										<td>
+											<input id="time_thursday" disabled type="time" value="10:00" min="07:00" max="22:00" required class="form-control">
+										</td>
+										<td>
+											<input id="time_friday" disabled type="time" value="10:00" min="07:00" max="22:00" required class="form-control">
+										</td>
+										<td>
+											<input id="time_saturday" disabled type="time" value="10:00" min="07:00" max="22:00" required class="form-control">
+										</td>
+										<td>
+											<input id="time_sunday" disabled type="time" value="10:00" min="07:00" max="22:00" required class="form-control">
+										</td>
+									</tr>
+
+								</table>
+								</div> 
+								<!-- table-responsive //end -->
+
+								<hr>
+								<label class="mb-2">Syllabus or content of course</label>
+								<div class="syllabus-wrap" style="max-width: 80%">
+									<div class="form-group">
+										<input type="text" placeholder="Lesson 1" class="form-control" name="">
+									</div>
+									<div class="form-group"> 
+										<input type="text" placeholder="Lesson 2" class="form-control" name="">
+									</div>
+									<div class="form-group"> 
+										<input type="text" placeholder="Lesson 3" class="form-control" name="">
+									</div>
+									<div class="form-group"> 
+										<input type="text" placeholder="Lesson 4" class="form-control" name="">
+									</div>
+									<div class="form-group"> 
+										<input type="text" placeholder="Lesson 5" class="form-control" name="">
+									</div>
+									<div class="form-group"> 
+										<input type="text" placeholder="Lesson 6" class="form-control" name="">
+									</div>
+								</div> 
+								<!-- syllabus-wrap end// -->
+								
+							</form>
+							<hr>
+							<button class="btn btn-success"> <i class="fa fa-check"></i> Create and activate </button>
+							<button class="btn btn-light"> <i class="fa fa-edit"></i> Save as draft </button>
+
+						</div> <!-- card-body .// -->
+					</article> <!-- card.// -->
+				</main> <!-- col.// -->
+			</div>
+
+		</div> <!-- container .//  -->
+	</section>
+	<!-- ========================= SECTION CONTENT END// ========================= -->
+
+
+<footer class="section-footer bg-primary text-white padding-y">
+	<div class="container">
+		<section class="row">
+			<div class="col-md-4"> 
+				<img src="images/logo-white.svg" class="logo-footer">
+				<p class="text-white-50"> © Copyright Bobosh 2020  </p>
+			</div>
+			<div class="col-md-8 order-mobile-first">
+				<ul class="nav float-md-right">
+					<li><a class="nav-link" href="#">Home</a></li>
+					<li><a class="nav-link" href="#">About us</a></li>
+					<li><a class="nav-link" href="#">Partnership</a></li>
+					<li><a class="nav-link" href="#">Become a teacher</a></li>
+					<li><a class="nav-link" href="#">Login</a></li>
+					<li><a class="nav-link" href="#">Contacts</a></li>
+				</ul>
+			</div>
+		</section> <!-- // row -->
+	</div><!-- //container -->
+</footer>
+
+</body>
+</html>

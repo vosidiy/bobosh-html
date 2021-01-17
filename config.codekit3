@@ -1171,10 +1171,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/js/bootstrap.bundle.min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/js/jquery-2.0.0.min.js": {
@@ -1182,21 +1182,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/js/jquery-2.0.0.min-min.js",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/script-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/script-min-min.js",
-		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/js/script.js": {
@@ -1206,8 +1195,8 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "/js/script-min.js",
-		"oF": 1,
-		"sC": 3,
+		"oF": 0,
+		"sC": 0,
 		"tS": 0
 		},
 	"/page-about.html": {
@@ -1282,6 +1271,14 @@
 		"oAP": "/page-login.html",
 		"oF": 0
 		},
+	"/page-register-kids.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-register-kids.html",
+		"oF": 0
+		},
 	"/page-register.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1290,15 +1287,39 @@
 		"oAP": "/page-register.html",
 		"oF": 0
 		},
+	"/page-teacher-course-add.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-teacher-course-add.html",
+		"oF": 0
+		},
+	"/page-teacher-profile.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-teacher-profile.html",
+		"oF": 0
+		},
+	"/page-teacher-schedule.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-teacher-schedule.html",
+		"oF": 0
+		},
 	"/plugins/fancybox/fancybox-min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/plugins/fancybox/fancybox-min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/plugins/fancybox/fancybox.css": {
@@ -1316,10 +1337,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/plugins/fancybox/fancybox-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/plugins/fancybox/fancybox.min-min.js": {
@@ -1327,10 +1348,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/plugins/fancybox/fancybox.min-min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/plugins/fancybox/fancybox.min.css": {
@@ -1348,10 +1369,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/plugins/fancybox/fancybox.min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/plugins/fancybox/index.html": {
@@ -1430,10 +1451,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/plugins/owlcarousel/owl.carousel-min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/plugins/owlcarousel/owl.carousel.js": {
@@ -1441,10 +1462,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/plugins/owlcarousel/owl.carousel-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/plugins/owlcarousel/owl.carousel.min-min.js": {
@@ -1452,10 +1473,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/plugins/owlcarousel/owl.carousel.min-min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/plugins/owlcarousel/owl.carousel.min.js": {
@@ -1463,10 +1484,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/plugins/owlcarousel/owl.carousel.min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/sass/_variables-custom.scss": {
@@ -4666,7 +4687,7 @@
 		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*-min.js",
 		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
@@ -4675,7 +4696,7 @@
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
