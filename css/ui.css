@@ -946,6 +946,7 @@ a[class*=card]:hover .title {
   color: #969696;
 }
 .card-course .img-wrap, .card-course-list .img-wrap, .card-blog .img-wrap {
+  height: 100%;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -1459,7 +1460,7 @@ html {
 }
 
 .section-intro {
-  background-color: #F3ECFF;
+  background-color: #8743EC;
   border-bottom-right-radius: 120px;
   overflow: hidden;
   min-height: 580px;
